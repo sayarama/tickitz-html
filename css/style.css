@@ -31,6 +31,26 @@ p{
     color: white;
 }
 
+.button-months{
+    border: 1px solid #5F2EEA;
+    border-radius: 8px;
+    color: #5F2EEA;
+    padding: 8px 25px 8px 25px;
+    background-color: transparent;
+}
+
+.button-months:hover{
+    background-color: #5F2EEA;
+    color: white;
+}
+
+.active{
+    background-color: #5F2EEA;
+    color: white;
+}
+
+
+
 .text-secondary{
     color: #A0A3BD;
 }
