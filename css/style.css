@@ -23,6 +23,7 @@ p{
     border-radius: 8px;
     color: #5F2EEA;
     padding: 8px;
+    background-color: transparent;
 }
 
 .button-cls:hover{
