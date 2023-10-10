@@ -1,3 +1,8 @@
+path{
+    margin: 0;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
     color: #414141;
@@ -6,4 +11,24 @@ a {
 .btn-primary{
     background-color: #5F2EEA;
     border: none;
+}
+
+.text-secondary{
+    color: #A0A3BD;
+}
+
+.text-primary{
+    color: #5F2EEA;
+}
+
+.fs-big{
+    font-size: 3.5em;
+}
+
+.mt-10{
+    margin-top: 100px;
+}
+
+.ml-10{
+    padding-left: 150px;
 }
