@@ -103,4 +103,8 @@ p{
         justify-content: center;
         background-color: red;
     }
+
+    .scroll-card{
+        overflow: scroll;
+    }
   }
