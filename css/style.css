@@ -124,12 +124,12 @@ p{
 
 
 @media screen and (max-width: 688px) {
-    #footer-mobile{
+    .footer-mobile{
         display: flex;
         flex-direction: column;
         align-items: center; 
         justify-content: center;
-        background-color: red;
+        gap: 50px;
     }
 
     .hero-mobile{
