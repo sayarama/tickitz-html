@@ -97,46 +97,28 @@ p{
 
 .scroll-card{
     overflow: scroll;
-    scrollbar-width: thin;
-    scrollbar-color: #CCCCCC #DFE9EB;
+    scrollbar-width: auto;
+    scrollbar-color: #ff0000 #ffffff;
     overflow-y: hidden;
 }
 
-.scroll-card::-webkit-scrollbar{
-    height: 5px;
-  width: 5px;
-}
+.scroll-card::-webkit-scrollbar {
+    width: 16px;
+  }
 
 .scroll-card::-webkit-scrollbar-track {
-    border-radius: 5px;
-    background-color: #ebebeb69;
+    background: #ffffff00;
   }
-  
 
-.scroll-card  ::-webkit-scrollbar-track:hover {
-    background-color: #ebebeb69;
+.scroll-card::-webkit-scrollbar-thumb {
+    background-color: #b4b4b4;
+    border-radius: 10px;
+    border: 5px solid #ffffff;
   }
-  
 
-.scroll-card  ::-webkit-scrollbar-track:active {
-    background-color: #ebebeb69;
-  }
-  
-
-.scroll-card  ::-webkit-scrollbar-thumb {
-    border-radius: 6px;
-    background-color: #ebebeb69;
-  }
-  
-
-.scroll-card  ::-webkit-scrollbar-thumb:hover {
-    background-color: #7a7a7ad7;
-  }
-  
-
-.scroll-card  ::-webkit-scrollbar-thumb:active {
-    background-color: #6b6b6bd3;
-  }
+.scroll-card::-webkit-scrollbar-thumb:hover{
+    background-color: #474747;
+}
 
 
 
@@ -148,5 +130,21 @@ p{
         align-items: center; 
         justify-content: center;
         background-color: red;
+    }
+
+    .hero-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-image{
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .hero-image img{
+        width: 250px;
     }
   }
