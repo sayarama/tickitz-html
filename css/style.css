@@ -120,6 +120,9 @@ p{
     background-color: #380dad;
 }
 
+.mobile-header-flex{
+    margin-left: 30px;
+}
 
 
 
@@ -146,5 +149,9 @@ p{
 
     .hero-image img{
         width: 250px;
+    }
+
+    .mobile-header-flex{
+        flex-direction: column;
     }
   }
