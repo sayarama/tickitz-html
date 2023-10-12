@@ -95,6 +95,10 @@ p{
     background-color: red;
 }
 
+.scroll-card{
+    overflow: scroll;
+}
+
 
 @media screen and (max-width: 688px) {
     #footer-mobile{
@@ -102,9 +106,5 @@ p{
         flex-direction: column; 
         justify-content: center;
         background-color: red;
-    }
-
-    .scroll-card{
-        overflow: scroll;
     }
   }
