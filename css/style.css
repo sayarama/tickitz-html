@@ -150,6 +150,9 @@ p{
     margin-left: 100px; 
 }
 
+.nav-text{
+    margin-left: 20px;
+}
 
 
 
@@ -188,6 +191,15 @@ p{
 
     .upcoming-mobile{
         padding: 10px !important;
+    }
+
+    .navbar-mobile{
+        background-color: red;
+        overflow-x: hidden;
+    }
+
+    .nav-text{
+        margin: 0;
     }
 }
 
