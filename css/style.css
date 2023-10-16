@@ -181,5 +181,13 @@ p{
     .mobile-header-flex{
         flex-direction: column;
     }
+
+    .bg-section{
+        padding: 10px !important;
+    }
+
+    .upcoming-mobile{
+        padding: 10px !important;
+    }
 }
 
